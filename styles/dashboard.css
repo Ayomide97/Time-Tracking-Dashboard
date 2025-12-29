@@ -1,0 +1,203 @@
+
+body
+{
+  background-color: #0E1323;
+  font-family:  "Rubik", Arial, Helvetica, sans-serif;
+}
+
+main
+{
+  margin: 5.063rem 1.5rem;
+}
+
+/* User card styles */
+
+.user-card
+{
+  background-color: rgb(28,32,75);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.user-details
+{
+  background-color: rgb(81, 71, 234);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.user
+{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.timeframes
+{
+  background-color: rgb(28,32,75);
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  color: rgb(112, 120, 201);
+  font-size: 18px;
+}
+
+.timeframes div:hover
+{
+  cursor: pointer;
+}
+
+.user-profile img
+{
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  border: solid white;
+  border-radius: 100%;
+}
+
+
+.info, .report
+{
+  font-size: 0.938rem;
+  color: #BBC0FF;
+  margin-bottom: 8px;
+}
+
+.info, .name
+{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: lighter;
+}
+
+
+/* Activity card styles */
+
+.activities
+{
+  /*display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 24px;*/
+  display: grid;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.card-component
+{
+  
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+.work-card
+{
+  background-color: #FF8B64;
+}
+
+.activity-image
+{
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+}
+
+.card-details
+{
+  background-color: #1C204B;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.card-details div img:hover
+{
+  cursor: pointer;
+  color: white;
+}
+
+.card-details:hover
+{
+  background-color: #33397A;
+}
+
+
+
+
+.activity-category
+{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 8px;
+}
+
+
+
+
+.activity-duration
+{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.activity-duration .time 
+{
+  font-size: 32px;
+  font-weight: 200;
+}
+
+
+.activity-summary
+{
+ color: rgb(187, 192, 255);
+ font-weight: 200;
+ font-size: 15px;
+}
+
+
+/* card component colours */
+
+.play-card
+{
+  background-color: #55C2E6;
+}
+
+.study-card
+{
+  background-color: #FF5E7D;
+}
+
+.exercise-card
+{
+  background-color: #4BCF82;
+
+}
+
+.social-card
+{
+  background-color: #7335D2;
+}
+
+.selfcare-card
+{
+  background-color: #F1C75B;
+}
+
+
+.active 
+{
+  color: white;
+}
+
+

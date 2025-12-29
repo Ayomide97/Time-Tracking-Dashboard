@@ -1,0 +1,142 @@
+@media (min-width: 768px)
+{
+
+  body
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+  main
+  {
+    max-width: 612px;
+   
+  }
+  .user
+  {
+    justify-content: flex-start;
+  }
+
+  .activity-duration
+  {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .activities
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    max-width: 612px;
+  }
+
+  .activity-duration .time
+  {
+    font-size: 50px;
+    font-weight: 200;
+  }
+
+  .card-component
+  {
+    max-width: 255px;
+  }
+
+  
+  .card-details
+  {
+    padding: 24px;
+    max-width: 145px;
+  }
+
+
+
+
+
+
+}
+
+@media (min-width: 1440px)
+{
+
+  
+
+ .activities
+ {
+  margin: 0;
+ }
+
+
+  main
+  {
+   display: flex;
+   max-width: 1116px;
+   width: 100%;
+   max-height: 520px;
+   height: 100%;
+   align-items: center;
+   margin: 0;
+  }
+
+  .activities
+  {
+    max-width: 829px;
+    width: 100%;
+    
+  }
+  .user
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .timeframes
+  {
+    flex-direction: column;
+    gap: 21px;
+  }
+
+
+  .user-card
+  {
+    max-height: 420px;
+    max-width: 255px;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 24px;
+    padding-bottom: 32px;
+  }
+
+  .name
+  {
+    font-size: 40px;
+  }
+
+  .timeframes
+  {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 32px;
+  }
+
+  .card-details
+  {
+   
+    width: 100%;
+    max-width: 207px;
+  }
+
+  .activity-duration
+  {
+    align-items: center;
+    justify-content: center; 
+  }
+
+}
+
